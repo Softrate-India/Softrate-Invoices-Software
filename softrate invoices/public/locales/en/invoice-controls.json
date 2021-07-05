@@ -1,0 +1,16 @@
+{
+  "back": "Back",
+  "book": "Book",
+  "design_and_layout": "Design & layout",
+  "compact": "Compact",
+  "comfortable": "Comfortable",
+  "customize": "Customize",
+  "download_pdf": "Download PDF",
+  "delete": "Delete",
+  "delete_modal": {
+    "title": "Delete invoice",
+    "ok_title": "Delete",
+    "cancel_title": "Dismiss"
+  },
+  "notification_deleted": "Deleted"
+}

@@ -1,0 +1,9 @@
+{
+  "statuses": {
+    "draft": "draft",
+    "booked": "booked",
+    "sent": "sent",
+    "paid": "paid",
+    "cancelled": "cancelled"
+  }
+}

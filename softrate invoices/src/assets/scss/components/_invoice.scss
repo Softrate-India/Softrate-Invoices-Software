@@ -1,0 +1,60 @@
+.invoice {
+  &-container {
+    overflow-x: auto;
+  }
+
+  &-box {
+    margin: auto;
+    padding: 30px;
+    min-width: var(--breakpoint-md);
+    box-shadow: $box-shadow-light-1;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__row {
+    &-control {
+      position: absolute;
+      top: 12px;
+      right: -30px;
+    }
+  }
+
+  &__rows {
+    &--compact {
+      th, td {
+        padding: 4px 16px;
+      }
+      .invoice__row-control {
+        top: 0;
+      }
+    }
+  }
+}
+
+@page {
+  size: A4;
+  margin: 0;
+  //-webkit-print-color-adjust: exact;
+}
+
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+    //color: $dark;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .table {
+    //color: $dark;
+    td, th {
+      background-color: inherit !important;
+    }
+  }
+  .invoice-box {
+    box-shadow: none;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
