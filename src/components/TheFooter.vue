@@ -17,9 +17,9 @@
             </small>
             <small class="pl-2">
                 {{ $t('A') }}
-                <a href="https://www.softrateindia.com/" class="text-secondary" target="_blank">Softrate Product</a>
+                <a href="https://www.softrateglobal.com/" class="text-secondary" target="_blank">Softrate Product</a>
             </small>
-            <a href="https://www.softrateindia.com"
+            <a href="https://www.softrateglobal.com"
                class="btn btn-sm btn--icon ml-0 ml-md-2"
                target="_blank">
                 <img src="@/assets/img/softrate.png"
@@ -29,7 +29,7 @@
                      alt="Softrate Invoices"
                      v-else>
             </a>
-            <a href="https://www.softrate-invoices.ml/"
+            <a href="https://softrateinvoices.softrateglobal.com/"
                class="btn btn-sm btn-primary ml-2"
                target="_blank">{{ $t('Website') }}</a>
         </div>
